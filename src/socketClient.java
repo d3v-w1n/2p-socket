@@ -15,7 +15,7 @@ public class socketClient {
 	public static void main(String[] args) {
 		//Implement Socket Listener with specified socket #?
 		String socketHost = "localhost";
-		int socketNum = 25;
+		int socketNum = 8080;
 		try {
 		Socket s1 = new Socket(socketHost, socketNum);
 		PrintWriter out = new PrintWriter(s1.getOutputStream(), true);
